@@ -1,0 +1,9 @@
+name: prepare-maven-settings-xml
+description: Prepare settings.xml file
+runs:
+  using: 'node12'
+  main: 'index.js'
+inputs:
+  server_ids:
+    description: One or more comma separated maven repository server id's
+    required: true
