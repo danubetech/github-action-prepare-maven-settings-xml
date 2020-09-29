@@ -1,0 +1,1 @@
+# github-action-prepare-maven-settings-xml
